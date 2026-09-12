@@ -5,3 +5,6 @@ print(a)
 a.pop()
 
 print(a)
+
+for i in range(len(a)):
+    print(i)
