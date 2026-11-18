@@ -5,10 +5,6 @@
 @section('content')
     <h1>Feedback</h1>
 
-    @if (session('success'))
-        <p><strong>{{ session('success') }}</strong></p>
-    @endif
-
     <form method="POST" action="{{ route('feedback.store') }}">
         @csrf
 

@@ -4,5 +4,5 @@
 
 @section('content')
     <h1>Home</h1>
-    <p>Leave us your <a href="{{ route('feedback.create') }}">feedback</a>.</p>
+    <p>Read the <a href="{{ route('posts.index') }}">posts</a> or leave us your <a href="{{ route('feedback.create') }}">feedback</a>.</p>
 @endsection

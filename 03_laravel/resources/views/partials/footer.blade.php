@@ -1,4 +1,3 @@
 <footer>
-    <hr>
-    <small>&copy; {{ date('Y') }} FeedbackApp</small>
+    <small>&copy; {{ date('Y') }} Blog</small>
 </footer>

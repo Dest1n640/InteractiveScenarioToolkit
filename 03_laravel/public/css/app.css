@@ -1,0 +1,81 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    color: #222;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.logo {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 16px 0;
+    border-top: 1px solid #ddd;
+    color: #777;
+}
+
+a {
+    color: #1a5fb4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: 6px;
+    font: inherit;
+}
+
+button {
+    padding: 6px 14px;
+    font: inherit;
+    cursor: pointer;
+}
+
+form.inline {
+    display: inline;
+}
+
+.success {
+    padding: 8px 12px;
+    background: #e6f4ea;
+    border: 1px solid #7bc48f;
+}
+
+.error {
+    color: #c01c28;
+}
+
+.muted {
+    color: #777;
+}
